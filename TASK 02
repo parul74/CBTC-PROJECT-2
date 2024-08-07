@@ -11,9 +11,10 @@
             display: block;
             justify-content: center;
             height: 100vh;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background: linear-gradient(135deg, #0c40a1, #437de1);
             color: white;
             background-image: url(sunshine.jpg);
+            background-size: cover;
         }
         .weather-container {
             text-align: center;
@@ -28,7 +29,7 @@
         }
         .fade-in-text a {
             text-align: center;
-            color: rgb(217, 239, 19);
+            color: rgb(3, 48, 80);
             text-decoration: none;
             font-size: 30px;
             font-weight: 600;
@@ -38,8 +39,9 @@
             -o-animation: fadeIn 5s;
             -ms-animation: fadeIn 5s;
 
-           
-           
+        }
+        .fade-in-text h1{
+            color: rgb(36, 97, 228);
         }
         @-moz-keyframes fadeIn {
             0% { opacity: 0; }
